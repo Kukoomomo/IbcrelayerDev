@@ -1,5 +1,6 @@
-interchain-security-pd -> spd
-interchain-security-cd -> scd
+``interchain-security-pd -> spd``
+
+``interchain-security-cd -> scd``
 
 ### node0 init 
 ```bash
