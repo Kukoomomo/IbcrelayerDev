@@ -1,0 +1,66 @@
+ [global]
+    log_level = 'info'
+    [mode]
+    [mode.clients]
+    enabled = true
+    refresh = true
+    misbehaviour = true
+    [mode.connections]
+    enabled = true
+    [mode.channels]
+    enabled = true
+    [mode.packets]
+    enabled = true
+    clear_interval = 100
+    clear_on_start = true
+    tx_confirmation = true
+    [rest]
+    enabled = true
+    host = '127.0.0.1'
+    port = 3000
+    [telemetry]
+    enabled = true
+    host = '0.0.0.0'
+    port = 3001
+    [[chains]]
+    id = 'provider-chain'
+    rpc_addr = 'http://localhost:26657/'
+    grpc_addr = 'http://localhost:9090'
+    websocket_addr = 'ws://localhost:26657/websocket'
+    rpc_timeout = '10s'
+    account_prefix = 'cosmos'
+    key_name = 'spdIBC'
+    address_type = { derivation = 'cosmos' }
+    store_prefix = 'ibc'
+    default_gas = 10000
+    max_gas = 400000
+    gas_price = { price = 0, denom = 'stake' }
+    gas_adjustment = 1.0
+    max_msg_num = 30
+    max_tx_size = 2097152
+    clock_drift = '5s'
+    max_block_time = '10s'
+    trusting_period = '100000s'
+    trust_threshold = { numerator = '1', denominator = '3' }
+    memo_prefix = ''
+    [[chains]]
+    id = 'consumer-chain'
+    rpc_addr = 'http://localhost:56657/'
+    grpc_addr = 'http://localhost:9390'
+    websocket_addr = 'ws://localhost:56657/websocket'
+    rpc_timeout = '10s'
+    account_prefix = 'cosmos'
+    key_name = 'node0'
+    address_type = { derivation = 'cosmos' }
+    store_prefix = 'ibc'
+    default_gas = 10000
+    max_gas = 400000
+    gas_price = { price = 0, denom = 'stake' }
+    gas_adjustment = 1.0
+    max_msg_num = 30
+    max_tx_size = 2097152
+    clock_drift = '5s'
+    max_block_time = '10s'
+    trusting_period = '100000s'
+    trust_threshold = { numerator = '1', denominator = '3' }
+    memo_prefix = ''

@@ -1,0 +1,13 @@
+{
+    "title": "Create the ConsumerChain",
+    "description": "ConsumerChain be a great chain",
+    "chain_id": "consumer-chain",
+    "initial_height": {
+        "revision_number": 0,
+        "revision_height": 1
+    },
+    "genesis_hash": "Z2VuZXNpcyBoYXNo",
+    "binary_hash": "YmluYXJ5IGhhc2g=",
+    "spawn_time": "2022-01-27T15:59:50.121607-08:00",
+    "deposit": "10000000stake"
+}
