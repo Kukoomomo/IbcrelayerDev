@@ -2,6 +2,7 @@ interchain-security-pd -> spd
 interchain-security-cd -> scd
 
 ### node0 init 
+```bash
 spd init node0 --chain-id=provider-chain --home spdtestnet/node0
 
 sed -i '.bak' '100s/"voting_period": "172800s"/"voting_period": "30s"/' spdtestnet/node0/config/genesis.json
@@ -16,6 +17,7 @@ spd collect-gentxs --home spdtestnet/node0
 spd keys list --keyring-backend test --keyring-dir spdtestnet/keys
 
 spd start --home spdtestnet/node0
+```
 
 ### node1 init 
 ```bash
