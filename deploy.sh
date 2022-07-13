@@ -148,6 +148,7 @@ nohup interchain-security-cd start --home $CD_HOME/node1  > ./logs/cdnode1.log 2
 echo "start scd node1 success!"
 
 echo "IBC relayer !!!"
+mkdir ~/.hermes
 cp ./ibcRelayer/config.toml ~/.hermes/     
 
 interchain-security-pd tx bank send node0 $SPD_IBC_ADDR 1000000stake --chain-id=$PD_CHAIN_ID --keyring-backend=test --keyring-dir=$PD_HOME/keys --from node0 -y -b block
@@ -164,13 +165,13 @@ hermes keys add $CD_CHAIN_ID -n scdnode0  -p "m/44'/118'/0'/0/0" -f ./ibcRelayer
 hermes keys list $PD_CHAIN_ID
 hermes keys list $CD_CHAIN_ID
 
-echo "create connection for client 07-tendermint-0 "
+echo "create connection for client 07-tendermint-0"
 sleep 5
 hermes create connection --client-a 07-tendermint-0 --client-b 07-tendermint-0 $PD_CHAIN_ID
 
 echo "create ccv channel"
 sleep 5
-hermes create channel --connection-a connection-0 --port-a consumer  --port-b provider -o ordered -v 1 $CD_CHAIN_ID
+hermes create channel --connection-a connection-0 --port-a consumer --port-b provider -o ordered -v 1 $CD_CHAIN_ID
 
 echo "start ibcrelayer"
 nohup hermes start  > ./logs/ibcRelayer.log 2>&1 & 
@@ -189,3 +190,7 @@ echo "deploy success"
 #     --from scdnode0  --keyring-backend test --keyring-dir $CD_HOME/keys \
 #     --chain-id $CD_CHAIN_ID -b block -y \
 #     --node http://localhost:56657
+
+# interchain-security-pd tx slashing unjail \
+#  --from node1 --keyring-backend test --keyring-dir $PD_HOME/keys \
+#   --chain-id $PD_CHAIN_ID -b block -y 
