@@ -1246,3 +1246,33 @@
 [90m2:47PM[0m [32mINF[0m commit synced [36mcommit=[0m436F6D6D697449447B5B312036322036302031373720323435203138302031353820313620323334203232372039302033372032392032303820373920313734203132203134302031313820313132203936203830203130332036302031303620323135203439203131392031323220313735203632203135395D3A37417D
 [90m2:47PM[0m [32mINF[0m committed state [36mapp_hash=[0m013E3CB1F5B49E10EAE35A251DD04FAE0C8C76706050673C6AD731777AAF3E9F [36mheight=[0m122 [36mmodule=[0mstate [36mnum_txs=[0m0
 [90m2:47PM[0m [32mINF[0m indexed block [36mheight=[0m122 [36mmodule=[0mtxindex
+[90m2:47PM[0m [32mINF[0m Timed out [36mdur=[0m4934.354 [36mheight=[0m123 [36mmodule=[0mconsensus [36mround=[0m0 [36mstep=[0m1
+[90m2:47PM[0m [32mINF[0m commit is for a block we do not know about; set ProposalBlock=nil [36mcommit=[0mCD3A92C8FB042F7AAEF1479CBDA05074BBC64116E4014A507C78C5E9FFDCCC01 [36mcommit_round=[0m0 [36mheight=[0m123 [36mmodule=[0mconsensus [36mproposal=[0m
+[90m2:47PM[0m [32mINF[0m received complete proposal block [36mhash=[0mCD3A92C8FB042F7AAEF1479CBDA05074BBC64116E4014A507C78C5E9FFDCCC01 [36mheight=[0m123 [36mmodule=[0mconsensus
+[90m2:47PM[0m [32mINF[0m finalizing commit of block [36mhash=[0mCD3A92C8FB042F7AAEF1479CBDA05074BBC64116E4014A507C78C5E9FFDCCC01 [36mheight=[0m123 [36mmodule=[0mconsensus [36mnum_txs=[0m0 [36mroot=[0m013E3CB1F5B49E10EAE35A251DD04FAE0C8C76706050673C6AD731777AAF3E9F
+[90m2:47PM[0m [32mINF[0m minted coins from module account [36mamount=[0m30stake [36mfrom=[0mmint [36mmodule=[0mx/bank
+[90m2:47PM[0m [32mINF[0m executed block [36mheight=[0m123 [36mmodule=[0mstate [36mnum_invalid_txs=[0m0 [36mnum_valid_txs=[0m0
+[90m2:47PM[0m [32mINF[0m commit synced [36mcommit=[0m436F6D6D697449447B5B323820313735203139203838203330203633203134392032323720353420313932203930203220313935203336203136302031303420313038203930203138332031323020313736203232392036322034352031353520323038203139203132352031373720323532203139342036345D3A37427D
+[90m2:47PM[0m [32mINF[0m committed state [36mapp_hash=[0m1CAF13581E3F95E336C05A02C324A0686C5AB778B0E53E2D9BD0137DB1FCC240 [36mheight=[0m123 [36mmodule=[0mstate [36mnum_txs=[0m0
+[90m2:47PM[0m [32mINF[0m indexed block [36mheight=[0m123 [36mmodule=[0mtxindex
+[90m2:47PM[0m [32mINF[0m received proposal [36mmodule=[0mconsensus [36mproposal=[0m{"Type":32,"block_id":{"hash":"8C64D34AB290B0196D6B8E41D3822337318474516AA749DBEDA929641A27CA10","parts":{"hash":"7223CEA080E0EEF87C263F1623BAAD3F7B3CD3FB0E1B57467F25C25CA828E8B8","total":1}},"height":124,"pol_round":-1,"round":0,"signature":"o4LJfwSIg9WLw+ZMlB5smpcy/v9pNjiKh90DA67DVsfyOTn0+xhUo2te11k4e6Km6O3aHRLjJgojSSmcC42eCw==","timestamp":"2022-07-13T06:47:38.811921Z"}
+[90m2:47PM[0m [32mINF[0m Timed out [36mdur=[0m4916.039 [36mheight=[0m124 [36mmodule=[0mconsensus [36mround=[0m0 [36mstep=[0m1
+[90m2:47PM[0m [32mINF[0m received complete proposal block [36mhash=[0m8C64D34AB290B0196D6B8E41D3822337318474516AA749DBEDA929641A27CA10 [36mheight=[0m124 [36mmodule=[0mconsensus
+[90m2:47PM[0m [32mINF[0m finalizing commit of block [36mhash=[0m8C64D34AB290B0196D6B8E41D3822337318474516AA749DBEDA929641A27CA10 [36mheight=[0m124 [36mmodule=[0mconsensus [36mnum_txs=[0m0 [36mroot=[0m1CAF13581E3F95E336C05A02C324A0686C5AB778B0E53E2D9BD0137DB1FCC240
+[90m2:47PM[0m [32mINF[0m minted coins from module account [36mamount=[0m30stake [36mfrom=[0mmint [36mmodule=[0mx/bank
+[90m2:47PM[0m [32mINF[0m executed block [36mheight=[0m124 [36mmodule=[0mstate [36mnum_invalid_txs=[0m0 [36mnum_valid_txs=[0m0
+[90m2:47PM[0m [32mINF[0m commit synced [36mcommit=[0m436F6D6D697449447B5B31363420333220313033203231392031393520313334203234203130362031323020313336203239203230312031362032303320313137203330203232332034332031333520363620323138203235352032343620313930203336203534203335203138203831203231322035203233305D3A37437D
+[90m2:47PM[0m [32mINF[0m committed state [36mapp_hash=[0mA42067DBC386186A78881DC910CB751EDF2B8742DAFFF6BE2436231251D405E6 [36mheight=[0m124 [36mmodule=[0mstate [36mnum_txs=[0m0
+[90m2:47PM[0m [32mINF[0m indexed block [36mheight=[0m124 [36mmodule=[0mtxindex
+[90m2:47PM[0m [32mINF[0m Ensure peers [36mmodule=[0mpex [36mnumDialing=[0m0 [36mnumInPeers=[0m0 [36mnumOutPeers=[0m1 [36mnumToDial=[0m9
+[90m2:47PM[0m [32mINF[0m We need more addresses. Sending pexRequest to random peer [36mmodule=[0mpex [36mpeer=[0m{"Data":{},"Logger":{}}
+[90m2:47PM[0m [32mINF[0m No addresses to dial. Falling back to seeds [36mmodule=[0mpex
+[90m2:47PM[0m [32mINF[0m Timed out [36mdur=[0m4920.193 [36mheight=[0m125 [36mmodule=[0mconsensus [36mround=[0m0 [36mstep=[0m1
+[90m2:47PM[0m [32mINF[0m commit is for a block we do not know about; set ProposalBlock=nil [36mcommit=[0m5C058532A5F65A236CBEFB65E57281CA587ABAC2F98787A6B86F112170258767 [36mcommit_round=[0m0 [36mheight=[0m125 [36mmodule=[0mconsensus [36mproposal=[0m
+[90m2:47PM[0m [32mINF[0m received complete proposal block [36mhash=[0m5C058532A5F65A236CBEFB65E57281CA587ABAC2F98787A6B86F112170258767 [36mheight=[0m125 [36mmodule=[0mconsensus
+[90m2:47PM[0m [32mINF[0m finalizing commit of block [36mhash=[0m5C058532A5F65A236CBEFB65E57281CA587ABAC2F98787A6B86F112170258767 [36mheight=[0m125 [36mmodule=[0mconsensus [36mnum_txs=[0m0 [36mroot=[0mA42067DBC386186A78881DC910CB751EDF2B8742DAFFF6BE2436231251D405E6
+[90m2:47PM[0m [32mINF[0m minted coins from module account [36mamount=[0m30stake [36mfrom=[0mmint [36mmodule=[0mx/bank
+[90m2:47PM[0m [32mINF[0m executed block [36mheight=[0m125 [36mmodule=[0mstate [36mnum_invalid_txs=[0m0 [36mnum_valid_txs=[0m0
+[90m2:47PM[0m [32mINF[0m commit synced [36mcommit=[0m436F6D6D697449447B5B37332032323120313934203738203136332034203130352030203232372032343520373520393720343920313937203333203135372036342033382032333420323235203230362031343720313439203132332032353120373820313833203131322031363320313236203739203137325D3A37447D
+[90m2:47PM[0m [32mINF[0m committed state [36mapp_hash=[0m49DDC24EA3046900E3F54B6131C5219D4026EAE1CE93957BFB4EB770A37E4FAC [36mheight=[0m125 [36mmodule=[0mstate [36mnum_txs=[0m0
+[90m2:47PM[0m [32mINF[0m indexed block [36mheight=[0m125 [36mmodule=[0mtxindex
