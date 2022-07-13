@@ -1122,3 +1122,60 @@
 [90m2:46PM[0m [32mINF[0m commit synced [36mcommit=[0m436F6D6D697449447B5B323433203135302035322031382037203230332031333320313620323620323535203535203133372031383120353820302031343520313435203230352031363820313938203134332031383920353620323439203830203135352033342039203933203139392038203134355D3A36447D
 [90m2:46PM[0m [32mINF[0m committed state [36mapp_hash=[0mF396341207CB85101AFF3789B53A009191CDA8C68FBD38F9509B22095DC70891 [36mheight=[0m109 [36mmodule=[0mstate [36mnum_txs=[0m0
 [90m2:46PM[0m [32mINF[0m indexed block [36mheight=[0m109 [36mmodule=[0mtxindex
+[90m2:46PM[0m [32mINF[0m Timed out [36mdur=[0m4620.459 [36mheight=[0m110 [36mmodule=[0mconsensus [36mround=[0m0 [36mstep=[0m1
+[90m2:46PM[0m [32mINF[0m received proposal [36mmodule=[0mconsensus [36mproposal=[0m{"Type":32,"block_id":{"hash":"4863E971D407DD583EA8CDABBC84310DE13313ECA494BF7A333ED61C6D467E5F","parts":{"hash":"43668CBE610AD366D1E3C8C81E9500227CE3A5BA6735A5D12AE5A8F67063F991","total":1}},"height":110,"pol_round":-1,"round":0,"signature":"lkcRMc+i8oPHb+8EeaLWdc9DCTq+F+0QOdzeX7GqB5KrifncDB+1/DgFI/8a4I93l5FGsBYfMBjJZxZUxgsRDA==","timestamp":"2022-07-13T06:46:26.377647Z"}
+[90m2:46PM[0m [32mINF[0m received complete proposal block [36mhash=[0m4863E971D407DD583EA8CDABBC84310DE13313ECA494BF7A333ED61C6D467E5F [36mheight=[0m110 [36mmodule=[0mconsensus
+[90m2:46PM[0m [32mINF[0m finalizing commit of block [36mhash=[0m4863E971D407DD583EA8CDABBC84310DE13313ECA494BF7A333ED61C6D467E5F [36mheight=[0m110 [36mmodule=[0mconsensus [36mnum_txs=[0m0 [36mroot=[0mF396341207CB85101AFF3789B53A009191CDA8C68FBD38F9509B22095DC70891
+[90m2:46PM[0m [32mINF[0m minted coins from module account [36mamount=[0m30stake [36mfrom=[0mmint [36mmodule=[0mx/bank
+[90m2:46PM[0m [32mINF[0m executed block [36mheight=[0m110 [36mmodule=[0mstate [36mnum_invalid_txs=[0m0 [36mnum_valid_txs=[0m0
+[90m2:46PM[0m [32mINF[0m commit synced [36mcommit=[0m436F6D6D697449447B5B313231203232382031303120323437203735203137372031363320363120353120333020393820313835203235332031303120323535203135352031353220313935203139312031392032333120313835203237203131342031313220323534203130312031342032382031383220313538203234385D3A36457D
+[90m2:46PM[0m [32mINF[0m committed state [36mapp_hash=[0m79E465F74BB1A33D331E62B9FD65FF9B98C3BF13E7B91B7270FE650E1CB69EF8 [36mheight=[0m110 [36mmodule=[0mstate [36mnum_txs=[0m0
+[90m2:46PM[0m [32mINF[0m indexed block [36mheight=[0m110 [36mmodule=[0mtxindex
+[90m2:46PM[0m [32mINF[0m Timed out [36mdur=[0m4921.392 [36mheight=[0m111 [36mmodule=[0mconsensus [36mround=[0m0 [36mstep=[0m1
+[90m2:46PM[0m [32mINF[0m commit is for a block we do not know about; set ProposalBlock=nil [36mcommit=[0mBFE305845E3D40DA389BB8CB581C02797A7E397EAA08EAE9219B4842E253ECFC [36mcommit_round=[0m0 [36mheight=[0m111 [36mmodule=[0mconsensus [36mproposal=[0m
+[90m2:46PM[0m [32mINF[0m received complete proposal block [36mhash=[0mBFE305845E3D40DA389BB8CB581C02797A7E397EAA08EAE9219B4842E253ECFC [36mheight=[0m111 [36mmodule=[0mconsensus
+[90m2:46PM[0m [32mINF[0m finalizing commit of block [36mhash=[0mBFE305845E3D40DA389BB8CB581C02797A7E397EAA08EAE9219B4842E253ECFC [36mheight=[0m111 [36mmodule=[0mconsensus [36mnum_txs=[0m0 [36mroot=[0m79E465F74BB1A33D331E62B9FD65FF9B98C3BF13E7B91B7270FE650E1CB69EF8
+[90m2:46PM[0m [32mINF[0m minted coins from module account [36mamount=[0m30stake [36mfrom=[0mmint [36mmodule=[0mx/bank
+[90m2:46PM[0m [32mINF[0m executed block [36mheight=[0m111 [36mmodule=[0mstate [36mnum_invalid_txs=[0m0 [36mnum_valid_txs=[0m0
+[90m2:46PM[0m [32mINF[0m commit synced [36mcommit=[0m436F6D6D697449447B5B323535203137392031353120323030203134382033362032343520323120313537203335203336203138342031343620323335203139352031373720363220313339203131392032333120313736203136362038203139362033332036392035362031313720323136203436203132382033305D3A36467D
+[90m2:46PM[0m [32mINF[0m committed state [36mapp_hash=[0mFFB397C89424F5159D2324B892EBC3B13E8B77E7B0A608C421453875D82E801E [36mheight=[0m111 [36mmodule=[0mstate [36mnum_txs=[0m0
+[90m2:46PM[0m [32mINF[0m indexed block [36mheight=[0m111 [36mmodule=[0mtxindex
+[90m2:46PM[0m [32mINF[0m Timed out [36mdur=[0m4920.672 [36mheight=[0m112 [36mmodule=[0mconsensus [36mround=[0m0 [36mstep=[0m1
+[90m2:46PM[0m [32mINF[0m received proposal [36mmodule=[0mconsensus [36mproposal=[0m{"Type":32,"block_id":{"hash":"F4347CA8BFB0E5A3819E094262A376F4B2E05304BA721A7758A158F05EAF3F83","parts":{"hash":"DF2222077FDF21746CBD7B296514729962393248A306B6DCC7055933DF5A35F0","total":1}},"height":112,"pol_round":-1,"round":0,"signature":"f0AIL89ndmzAcedi8vjTQIsjrZLyG9kOa2PLTIWPd6iYYJeLylsRDZBrX7NzN9BrOnzhnswK32ZlKFasI1eBBg==","timestamp":"2022-07-13T06:46:36.769641Z"}
+[90m2:46PM[0m [32mINF[0m received complete proposal block [36mhash=[0mF4347CA8BFB0E5A3819E094262A376F4B2E05304BA721A7758A158F05EAF3F83 [36mheight=[0m112 [36mmodule=[0mconsensus
+[90m2:46PM[0m [32mINF[0m finalizing commit of block [36mhash=[0mF4347CA8BFB0E5A3819E094262A376F4B2E05304BA721A7758A158F05EAF3F83 [36mheight=[0m112 [36mmodule=[0mconsensus [36mnum_txs=[0m0 [36mroot=[0mFFB397C89424F5159D2324B892EBC3B13E8B77E7B0A608C421453875D82E801E
+[90m2:46PM[0m [32mINF[0m minted coins from module account [36mamount=[0m30stake [36mfrom=[0mmint [36mmodule=[0mx/bank
+[90m2:46PM[0m [32mINF[0m executed block [36mheight=[0m112 [36mmodule=[0mstate [36mnum_invalid_txs=[0m0 [36mnum_valid_txs=[0m0
+[90m2:46PM[0m [32mINF[0m commit synced [36mcommit=[0m436F6D6D697449447B5B31333120313637203234352034382031323520383420313536203233362036322032353320393420353120313533203137302031353720323435203620313733203134392031373720323233203232392031302031343820313337203336203939203120323237203134322032323420385D3A37307D
+[90m2:46PM[0m [32mINF[0m committed state [36mapp_hash=[0m83A7F5307D549CEC3EFD5E3399AA9DF506AD95B1DFE50A9489246301E38EE008 [36mheight=[0m112 [36mmodule=[0mstate [36mnum_txs=[0m0
+[90m2:46PM[0m [32mINF[0m indexed block [36mheight=[0m112 [36mmodule=[0mtxindex
+[90m2:46PM[0m [32mINF[0m Ensure peers [36mmodule=[0mpex [36mnumDialing=[0m0 [36mnumInPeers=[0m0 [36mnumOutPeers=[0m1 [36mnumToDial=[0m9
+[90m2:46PM[0m [32mINF[0m We need more addresses. Sending pexRequest to random peer [36mmodule=[0mpex [36mpeer=[0m{"Data":{},"Logger":{}}
+[90m2:46PM[0m [32mINF[0m No addresses to dial. Falling back to seeds [36mmodule=[0mpex
+[90m2:46PM[0m [32mINF[0m Timed out [36mdur=[0m4911.504 [36mheight=[0m113 [36mmodule=[0mconsensus [36mround=[0m0 [36mstep=[0m1
+[90m2:46PM[0m [32mINF[0m commit is for a block we do not know about; set ProposalBlock=nil [36mcommit=[0mB97DA03E197B9543F04E2CF6D1AED868550CAC6BF008CD9D12004231B426507F [36mcommit_round=[0m0 [36mheight=[0m113 [36mmodule=[0mconsensus [36mproposal=[0m
+[90m2:46PM[0m [32mINF[0m received complete proposal block [36mhash=[0mB97DA03E197B9543F04E2CF6D1AED868550CAC6BF008CD9D12004231B426507F [36mheight=[0m113 [36mmodule=[0mconsensus
+[90m2:46PM[0m [32mINF[0m finalizing commit of block [36mhash=[0mB97DA03E197B9543F04E2CF6D1AED868550CAC6BF008CD9D12004231B426507F [36mheight=[0m113 [36mmodule=[0mconsensus [36mnum_txs=[0m0 [36mroot=[0m83A7F5307D549CEC3EFD5E3399AA9DF506AD95B1DFE50A9489246301E38EE008
+[90m2:46PM[0m [32mINF[0m minted coins from module account [36mamount=[0m30stake [36mfrom=[0mmint [36mmodule=[0mx/bank
+[90m2:46PM[0m [32mINF[0m executed block [36mheight=[0m113 [36mmodule=[0mstate [36mnum_invalid_txs=[0m0 [36mnum_valid_txs=[0m0
+[90m2:46PM[0m [32mINF[0m commit synced [36mcommit=[0m436F6D6D697449447B5B31343920333820313638203137332031383820373020323137203335203235352032333920392035332038352036203934203230392039203133372032333120323438203231203134322032333420323334203934203131352032323020313131203433203135342032303220365D3A37317D
+[90m2:46PM[0m [32mINF[0m committed state [36mapp_hash=[0m9526A8ADBC46D923FFEF093555065ED10989E7F8158EEAEA5E73DC6F2B9ACA06 [36mheight=[0m113 [36mmodule=[0mstate [36mnum_txs=[0m0
+[90m2:46PM[0m [32mINF[0m indexed block [36mheight=[0m113 [36mmodule=[0mtxindex
+[90m2:46PM[0m [32mINF[0m Timed out [36mdur=[0m4876.421 [36mheight=[0m114 [36mmodule=[0mconsensus [36mround=[0m0 [36mstep=[0m1
+[90m2:46PM[0m [32mINF[0m commit is for a block we do not know about; set ProposalBlock=nil [36mcommit=[0m8A1973B094D7134A290713FD1027D28DEBEEC77284C95978C638D43C6258CCE0 [36mcommit_round=[0m0 [36mheight=[0m114 [36mmodule=[0mconsensus [36mproposal=[0m
+[90m2:46PM[0m [32mINF[0m received complete proposal block [36mhash=[0m8A1973B094D7134A290713FD1027D28DEBEEC77284C95978C638D43C6258CCE0 [36mheight=[0m114 [36mmodule=[0mconsensus
+[90m2:46PM[0m [32mINF[0m finalizing commit of block [36mhash=[0m8A1973B094D7134A290713FD1027D28DEBEEC77284C95978C638D43C6258CCE0 [36mheight=[0m114 [36mmodule=[0mconsensus [36mnum_txs=[0m0 [36mroot=[0m9526A8ADBC46D923FFEF093555065ED10989E7F8158EEAEA5E73DC6F2B9ACA06
+[90m2:46PM[0m [32mINF[0m minted coins from module account [36mamount=[0m30stake [36mfrom=[0mmint [36mmodule=[0mx/bank
+[90m2:46PM[0m [32mINF[0m executed block [36mheight=[0m114 [36mmodule=[0mstate [36mnum_invalid_txs=[0m0 [36mnum_valid_txs=[0m0
+[90m2:46PM[0m [32mINF[0m commit synced [36mcommit=[0m436F6D6D697449447B5B32323020322032333420313038203920323131203331203434203134203139342031343920313537203232322032313120313536203130362032323220313735203731203230392032353520323238203232352032303120313336203131203738203834203136332031393020323431203234325D3A37327D
+[90m2:46PM[0m [32mINF[0m committed state [36mapp_hash=[0mDC02EA6C09D31F2C0EC2959DDED39C6ADEAF47D1FFE4E1C9880B4E54A3BEF1F2 [36mheight=[0m114 [36mmodule=[0mstate [36mnum_txs=[0m0
+[90m2:46PM[0m [32mINF[0m indexed block [36mheight=[0m114 [36mmodule=[0mtxindex
+[90m2:46PM[0m [32mINF[0m Timed out [36mdur=[0m4911.774 [36mheight=[0m115 [36mmodule=[0mconsensus [36mround=[0m0 [36mstep=[0m1
+[90m2:46PM[0m [32mINF[0m received proposal [36mmodule=[0mconsensus [36mproposal=[0m{"Type":32,"block_id":{"hash":"04794D8351B99367AE257DE9E415040152047A3EE3A2DE3FA8B7FAF9ED4E80A5","parts":{"hash":"83C1DA62A4986B18C74AE72C467FEA24818FC285E09BE4C89FF03DD517175489","total":1}},"height":115,"pol_round":-1,"round":0,"signature":"Jixz4k0hXpjq/BEGKrawDOB8cxY32uYsBkHkv0wnQkbii05zVYXLdrdo/NiomB0vG9SSxe8JjVoFAXBJQnV2AA==","timestamp":"2022-07-13T06:46:52.17876Z"}
+[90m2:46PM[0m [32mINF[0m received complete proposal block [36mhash=[0m04794D8351B99367AE257DE9E415040152047A3EE3A2DE3FA8B7FAF9ED4E80A5 [36mheight=[0m115 [36mmodule=[0mconsensus
+[90m2:46PM[0m [32mINF[0m finalizing commit of block [36mhash=[0m04794D8351B99367AE257DE9E415040152047A3EE3A2DE3FA8B7FAF9ED4E80A5 [36mheight=[0m115 [36mmodule=[0mconsensus [36mnum_txs=[0m0 [36mroot=[0mDC02EA6C09D31F2C0EC2959DDED39C6ADEAF47D1FFE4E1C9880B4E54A3BEF1F2
+[90m2:46PM[0m [32mINF[0m minted coins from module account [36mamount=[0m30stake [36mfrom=[0mmint [36mmodule=[0mx/bank
+[90m2:46PM[0m [32mINF[0m executed block [36mheight=[0m115 [36mmodule=[0mstate [36mnum_invalid_txs=[0m0 [36mnum_valid_txs=[0m0
+[90m2:46PM[0m [32mINF[0m commit synced [36mcommit=[0m436F6D6D697449447B5B32362031373120323336203232322031392033332031332031393020323031203232302033352031353720313632203137342036352032313720313020323231203134352034362031323620362037352037392033342031393420323333203232372032203231342039362034305D3A37337D
+[90m2:46PM[0m [32mINF[0m committed state [36mapp_hash=[0m1AABECDE13210DBEC9DC239DA2AE41D90ADD912E7E064B4F22C2E9E302D66028 [36mheight=[0m115 [36mmodule=[0mstate [36mnum_txs=[0m0
+[90m2:46PM[0m [32mINF[0m indexed block [36mheight=[0m115 [36mmodule=[0mtxindex
