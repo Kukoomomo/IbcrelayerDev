@@ -149,7 +149,7 @@ nohup interchain-security-cd start --home $CD_HOME/node1  > ./logs/cdnode1.log 2
 echo "start scd node1 success!"
 
 echo "IBC relayer !!!"
-cp config.toml ~/.hermes/     
+cp ./ibcRelayer/config.toml ~/.hermes/     
 
 interchain-security-pd tx bank send node0 $SPD_IBC_ADDR 1000000stake --chain-id=$PD_CHAIN_ID --keyring-backend=test --keyring-dir=$PD_HOME/keys --from node0 -y -b block
 
@@ -159,8 +159,8 @@ echo $NODE0_MEM | interchain-security-cd keys add scdnode0 --recover --keyring-b
 interchain-security-pd keys list --keyring-backend test --keyring-dir $PD_HOME/keys
 interchain-security-cd keys list --keyring-backend test --keyring-dir $CD_HOME/keys
 
-hermes keys add $PD_CHAIN_ID -n spdIBC  -p "m/44'/118'/0'/0/0" -f ./spdIBC.json 
-hermes keys add $CD_CHAIN_ID -n scdnode0  -p "m/44'/118'/0'/0/0" -f ./scdnode0.json
+hermes keys add $PD_CHAIN_ID -n spdIBC  -p "m/44'/118'/0'/0/0" -f ./ibcRelayer/spdIBC.json 
+hermes keys add $CD_CHAIN_ID -n scdnode0  -p "m/44'/118'/0'/0/0" -f ./ibcRelayer/scdnode0.json
 
 hermes keys list $PD_CHAIN_ID
 hermes keys list $CD_CHAIN_ID
@@ -180,3 +180,13 @@ interchain-security-pd tx staking delegate $NODE1_VAL_ADDR 1000000stake \
  --from node0 --keyring-backend test --keyring-dir $PD_HOME/keys \
  -y -b block \
  --chain-id $PD_CHAIN_ID
+
+interchain-security-pd q ibc channel channels 
+interchain-security-cd q ibc channel channels --node http://localhost:56657
+
+echo "deploy success"
+
+# interchain-security-cd tx bank send scdnode0 cosmos1y0eqyw2czryedw00jpxpc6pcfnkcfktgpc5g67 100stake \
+#     --from scdnode0  --keyring-backend test --keyring-dir $CD_HOME/keys \
+#     --chain-id $CD_CHAIN_ID -b block -y \
+#     --node http://localhost:56657
