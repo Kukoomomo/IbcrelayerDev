@@ -11,7 +11,6 @@ NODE0_ADDR=cosmos18vp7k4mdacjqm8vglrv7krj70uhcwk7hx9x4k2
 NODE1_ADDR=cosmos1y0eqyw2czryedw00jpxpc6pcfnkcfktgpc5g67
 NODE1_VAL_ADDR=cosmosvaloper1y0eqyw2czryedw00jpxpc6pcfnkcfktgyvqakd
 
-
 SPD_IBC_MEM='smoke evoke define explain decorate decorate garbage flower tumble lonely knee direct monster liquid fortune gallery chef excuse decorate edge apple jar tree sentence'
 SPD_IBC_ADDR=cosmos1atfclhdvkjmvfqljjnug87xguayu270kjw0h92
 # cache logs
