@@ -45,12 +45,12 @@
     memo_prefix = ''
     [[chains]]
     id = 'consumer-chain'
-    rpc_addr = 'http://localhost:56657/'
-    grpc_addr = 'http://localhost:9390'
-    websocket_addr = 'ws://localhost:56657/websocket'
+    rpc_addr = 'http://localhost:46657/'
+    grpc_addr = 'http://localhost:9290'
+    websocket_addr = 'ws://localhost:46657/websocket'
     rpc_timeout = '10s'
     account_prefix = 'cosmos'
-    key_name = 'node0'
+    key_name = 'scdnode0'
     address_type = { derivation = 'cosmos' }
     store_prefix = 'ibc'
     default_gas = 10000
