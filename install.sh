@@ -14,7 +14,4 @@ echo "install rust"
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 echo "install ibc relayer "
-git clone https://github.com/informalsystems/ibc-rs.git
-cd ibc-rs
-git checkout v1.0.0-rc.0
-cargo build --release --bin hermes
+cargo install ibc-relayer-cli --bin hermes --locked

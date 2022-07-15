@@ -171,7 +171,7 @@ hermes create connection --client-a 07-tendermint-0 --client-b 07-tendermint-0 $
 
 echo "create ccv channel"
 sleep 5
-hermes create channel --connection-a connection-0 --port-a consumer --port-b provider -o ordered -v 1 $CD_CHAIN_ID
+hermes create channel --port-a consumer --port-b provider -o ordered -v 1 $CD_CHAIN_ID connection-0
 
 echo "start ibcrelayer"
 nohup hermes start  > ./logs/ibcRelayer.log 2>&1 & 
